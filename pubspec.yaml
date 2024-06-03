@@ -1,0 +1,32 @@
+name: atmakitchen
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  motion_tab_bar: ^2.0.4
+  salomon_bottom_bar: ^3.3.2
+  shared_preferences: ^2.0.6
+  line_awesome_flutter: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/images/hampers.png
+    - assets/images/kuePanggang.png
+    - assets/images/lapisSurabaya.png
+    - assets/images/notFound.png
